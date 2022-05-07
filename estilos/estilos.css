@@ -209,6 +209,11 @@ div#tarjeta-imagen div#ETH p {
   color: #00fff7;
 }
 
+div#tarjeta-imagen div#Relleno {
+  background-color: #00fff7 !important;
+  opacity: 0.4;
+}
+
 footer {
   text-align: center;
   color: darkgreen;

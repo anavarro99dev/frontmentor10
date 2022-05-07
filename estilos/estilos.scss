@@ -78,6 +78,10 @@ div#tarjeta-imagen {
       color: $Cyan;
     }
   }
+  div#Relleno{
+    background-color: $Cyan !important;
+    opacity: 0.4;
+  }
 }
 
 footer {
