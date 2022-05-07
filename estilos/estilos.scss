@@ -1,0 +1,40 @@
+@import "reset";
+@import "util";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+// Primarios: 
+$Soft_blue: hsl(0, 0%, 100%);
+$Cyan: hsl(178, 100%, 50%);
+
+// Secundarios: 
+$Very_dark_blue_main_BG: hsl(217, 54%, 11%);
+$Very_dark_blue_card: hsl(216, 50%, 16%);
+$Very_dark_blue_line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+// Tipografia: 
+$pSize: rem(18px);
+
+body{
+    p, h1, h2, h3, h4, h5, h6{
+        font-family: 'Outfit', sans-serif;
+    }
+    P{
+        font-size: $pSize;
+    }
+}
+
+footer {
+    text-align: center;
+    color: darkgreen;
+    a {
+      color: darkgrey;
+      font-style: normal;
+      text-decoration: underline;
+      &:hover {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
