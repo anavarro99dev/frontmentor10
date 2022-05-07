@@ -85,7 +85,11 @@ div#tarjeta-imagen {
   div#Relleno{
     background-color: $Cyan !important;
     opacity: 0.4;
+    &:hover{
+      cursor: pointer;
+    }
   }
+
 }
 
 footer {

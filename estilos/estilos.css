@@ -220,6 +220,10 @@ div#tarjeta-imagen div#Relleno {
   opacity: 0.4;
 }
 
+div#tarjeta-imagen div#Relleno:hover {
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   color: darkgreen;
