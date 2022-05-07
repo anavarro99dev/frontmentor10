@@ -178,6 +178,12 @@ body span#Autor:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 46.875rem) {
+  body {
+    position: relative;
+  }
+}
+
 div#tarjeta-imagen {
   background-color: #14253d;
 }
@@ -217,6 +223,12 @@ div#tarjeta-imagen div#Relleno {
 footer {
   text-align: center;
   color: darkgreen;
+}
+
+@media screen and (max-width: 46.875rem) {
+  footer {
+    position: initial;
+  }
 }
 
 footer a {

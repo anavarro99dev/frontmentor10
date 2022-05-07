@@ -51,6 +51,10 @@ body {
     }
   }
   background-color: $Very_dark_blue_main_BG;
+
+  @include movil{
+    position: relative;
+  }
 }
 
 div#tarjeta-imagen {
@@ -85,6 +89,9 @@ div#tarjeta-imagen {
 }
 
 footer {
+  @include movil{
+    position: initial;
+  }
   text-align: center;
   color: darkgreen;
   a {
